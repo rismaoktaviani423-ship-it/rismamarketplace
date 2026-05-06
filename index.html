@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Desain Grafis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="loginPage" class="login-container">
+    <div class="login-box">
+        <h2>Login Produk Desain Grafis</h2>
+        <input type="password" id="password" placeholder="Masukkan Password">
+        <button onclick="checkPassword()">Login</button>
+        <p id="errorMsg"></p>
+    </div>
+</div>
+
+<!-- MAIN WEBSITE -->
+<div id="mainWebsite" style="display:none;">
+    <header>
+        <h1>Produk Desain Grafis</h1>
+        <p>Mudah Diakses | Tampilan Premium | Harga Ramah</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#produk">Produk</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Solusi Desain Digital Praktis untuk Pelajar</h2>
+        <p>Kami menyediakan produk desain grafis digital seperti poster dan infografis premium dengan harga terjangkau.</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>1. Mudah Diakses</h3>
+            </div>
+            <div class="feature-card">
+                <h3>2. Tampilan Premium</h3>
+            </div>
+            <div class="feature-card">
+                <h3>3. Harga Ramah</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Usaha</h2>
+        <p>
+            Usaha ini dikembangkan untuk membantu menyelesaikan permasalahan desain grafis dengan mudah, cepat, dan murah.
+            Sangat cocok bagi pelajar yang sedang dikejar deadline tugas namun tetap membutuhkan hasil desain berkualitas premium.
+        </p>
+    </section>
+
+    <section id="produk">
+        <h2>Produk Kami</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="images/poster.jpg" alt="Contoh Poster">
+                <h3>Poster Digital</h3>
+                <p>Desain menarik untuk tugas, promosi, dan presentasi.</p>
+                <span>Harga: Rp15.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="images/infografis.jpg" alt="Contoh Infografis">
+                <h3>Infografis Digital</h3>
+                <p>Visual informatif premium untuk kebutuhan edukasi.</p>
+                <span>Harga: Rp20.000</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <p>Hubungi kami: 087779852909</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Produk Desain Grafis | Marketplace Digital Pelajar</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
